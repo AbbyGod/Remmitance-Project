@@ -24,7 +24,7 @@ results.sort(key = lambda x: x[1], reverse=True)
 
 for name, net in results:
     best = "(best)" if net == results[0][1] else ""
-    print(f"{name}: {net} HTG {best}")
+    print(f"{name}: {net:,.0f} HTG {best}")
 
 
         
